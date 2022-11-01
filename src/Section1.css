@@ -50,3 +50,26 @@ margin-left: 15px;
     width: 23px;
     margin-left: 5px;
 }
+.section1{
+  background-color: #1D2123;
+    
+}
+.picturediv{
+    background-color: #609EAF;
+    width: 700px;
+    height: 380px;
+    border-radius: 20px;
+    position: relative;
+}
+.parentdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+    width: 800px;
+    /* height: 700px; */
+}
+.net{
+    position: absolute;
+    left: 190px;
+    top: 5px;
+}
