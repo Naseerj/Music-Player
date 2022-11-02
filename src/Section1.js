@@ -8,8 +8,8 @@ import Profile from "./Images/Vector3.png";
 import Logout from "./Images/Logout.svg";
 import Net from "./Images/Vector (13).svg";
 import Singer from "./Images/Pexels Photo by Eric Esma.svg";
-import Pictures from './Images/Frame 4 (1).svg'
-import Likes from './Images/Frame 3.svg'
+import Pictures from "./Images/Frame 4 (1).svg";
+import Likes from "./Images/Frame 3.svg";
 import "./Section1.css";
 
 const Section1 = () => {
@@ -37,17 +37,25 @@ const Section1 = () => {
         <div className="picturediv">
           <h4 className="text1">Curated Playlist</h4>
           <div className="RBdiv">
-          <h2>R & B HITS</h2>
-          <p className="p1">
-            R & B Hits All mine, Lie again, Petty call me everyday, Out of time,
-            No love, Bad habit, and so much more
-          </p>
+            <h2>R & B HITS</h2>
+            <p className="p1">
+              R & B Hits All mine, Lie again, Petty call me everyday, Out of
+              time, No love, Bad habit, and so much more
+            </p>
           </div>
-          <img src={Pictures} alt="" />
-          <img src={Likes} alt="" />
+          <img className="Pictures" src={Pictures} alt="" />
+          <img className="Likes" src={Likes} alt="" />
           <img className="net" src={Net} alt="" />
           <img className="singer" src={Singer} alt="" />
           <div></div>
+        </div>
+        <div className="secondiv">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolor
+            soluta labore nulla, saepe fuga sint reiciendis cum, eius qui
+            suscipit quod. Numquam totam sapiente voluptatibus! Sit dolorum
+            ullam ad.
+          </p>
         </div>
       </div>
     </div>
