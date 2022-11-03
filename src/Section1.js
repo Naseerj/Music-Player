@@ -10,6 +10,8 @@ import Net from "./Images/Vector (13).svg";
 import Singer from "./Images/Pexels Photo by Eric Esma.svg";
 import Pictures from "./Images/Frame 4 (1).svg";
 import Likes from "./Images/Frame 3.svg";
+import Song1 from './Images/song1.svg'
+import Heart from './Images/Heart.svg'
 import "./Section1.css";
 
 const Section1 = () => {
@@ -50,12 +52,46 @@ const Section1 = () => {
           <div></div>
         </div>
         <div className="secondiv">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolor
-            soluta labore nulla, saepe fuga sint reiciendis cum, eius qui
-            suscipit quod. Numquam totam sapiente voluptatibus! Sit dolorum
-            ullam ad.
-          </p>
+          <h2>Top Charts</h2>
+          <div className="song1div">
+            <div>
+            <img src={Song1} alt="" />
+            </div>
+           <div className="song1textdiv">
+           <h5>Golden age of 80s</h5>
+            <p>Sean swadder</p>
+            <p>2:34:45</p>
+           </div>
+            <div className="heartdiv">
+            <img className="heart" src={Heart} alt="" />
+            </div>
+          </div>
+          <div className="song1div">
+            <div>
+            <img src={Song1} alt="" />
+            </div>
+           <div className="song1textdiv">
+           <h5>Golden age of 80s</h5>
+            <p>Sean swadder</p>
+            <p>2:34:45</p>
+           </div>
+            <div className="heartdiv">
+            <img className="heart" src={Heart} alt="" />
+            </div>
+          </div>
+          <div className="song1div">
+            <div>
+            <img src={Song1} alt="" />
+            </div>
+           <div className="song1textdiv">
+           <h5>Golden age of 80s</h5>
+            <p>Sean swadder</p>
+            <p>2:34:45</p>
+           </div>
+            <div className="heartdiv">
+            <img className="heart" src={Heart} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

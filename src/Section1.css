@@ -68,7 +68,9 @@ margin-left: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2px;
-    width: 800px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
     /* height: 700px; */
     position: fixed;
    background-color: #1D2123;
@@ -128,6 +130,48 @@ text-align: left;
  padding: 20px;
 }
 .secondiv{
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 400px;
+  padding: 10px;
+  /* background: #1A1E1F; */
+  
+
+}
+.song1div{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  height: 100px;
+  width: 300px;
+  background: #1E1E1E;
+  /* padding: 5px; */
+}
+.song1textdiv{
+  height: 10px;
+  width: 150px;
+  /* background-color: aquamarine; */
+}
+.song1textdiv > p {
+  margin: 0;
+}
+.song1textdiv > h5 {
+  margin: 0;
+}
+.heart{
+  /* background-color: red; */
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 1px;
+  margin-top: 1px;
+  
+}
+.heartdiv{
+  /* background-color: aquamarine; */
+  margin-top: 13px;
+  width: 20px;
+  border-radius: 80px;
+  padding: 5px;
+  height: 20px;
+  clip-path: circle(20px);
+  border: 1px solid #FACD66;
 }
